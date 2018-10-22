@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>锅打灰太狼</title>
+    <link rel="stylesheet" href="practise.css">
+    <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>锅打灰太狼</h1>
+    <button onclick="easy()">简单版</button>
+    <button onclick="normal()">中等版</button>
+    <button onclick="hard()">高难度</button>
+    <div class="rules" onclick="ruleOpen()">游戏规则</div>
+    <div class="rule" id="rule">
+        <p>游戏规则：</p>
+        <p>1.游戏时间：30s</p>
+        <p>2.拼手速，殴打灰太狼+10分</p>
+        <p>3.殴打小灰灰-10分</p>
+        <a href="#" onclick="ruleClose()">【关闭】</a>
+    </div>
+</div>
+<script src="practise.js"></script>
+</body>
+</html>
